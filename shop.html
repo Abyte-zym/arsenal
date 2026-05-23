@@ -1,46 +1,89 @@
-<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Java面试装备商店</title>
-<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial;background:#0f172a;color:#e2e8f0;padding:20px;max-width:700px;margin:0 auto}
-h1{color:#38bdf8;text-align:center;margin:20px 0}.sub{text-align:center;color:#94a3b8;margin-bottom:20px}
-.pkg{background:#1e293b;border-radius:12px;padding:20px;margin:16px 0;border:2px solid #334155;position:relative}
-.pkg.best{border-color:#facc15}.best-tag{position:absolute;top:-12px;right:20px;background:#facc15;color:#0f172a;padding:2px 12px;border-radius:12px;font-size:12px;font-weight:bold}
-.pkg h3{font-size:18px;margin-bottom:4px}.price{font-size:28px;color:#4ade80;margin:8px 0}.price .original{color:#64748b;font-size:14px;text-decoration:line-through;margin-left:8px}
-.pkg ul{list-style:none;margin:12px 0;color:#94a3b8;font-size:14px}.pkg ul li{padding:3px 0}.pkg ul li::before{content:"✅ ";color:#4ade80}
-.buy-btn{display:block;text-align:center;background:#2563eb;color:white;padding:12px;border-radius:8px;text-decoration:none;font-weight:bold;margin-top:12px;font-size:16px}.buy-btn:hover{background:#1d4ed8}
-.contact{text-align:center;margin:30px 0;padding:20px;background:#1e293b;border-radius:12px}
-.contact img{width:150px;border-radius:12px;margin:8px}</style></head><body>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🛒 Java面试装备商店 | ¥9.9起·物超所值</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0;line-height:1.8;padding:20px}
+.container{max-width:700px;margin:0 auto}
+h1{font-size:1.6em;color:#facc15;text-align:center;margin:20px 0 10px}
+.subtitle{text-align:center;color:#94a3b8;margin-bottom:30px;font-size:0.9em}
+.card{background:#1e293b;border-radius:16px;padding:24px;margin:20px 0;border:2px solid #334155;transition:all .3s}
+.card:hover{border-color:#facc15;transform:translateY(-2px)}
+.card.featured{border-color:#facc15;background:linear-gradient(135deg,#1e293b,#1a2a1a)}
+.card h2{color:#facc15;margin-bottom:8px;font-size:1.3em}
+.price{font-size:2em;color:#4ade80;font-weight:bold;margin:12px 0}
+.price s{color:#64748b;font-size:0.5em;margin-left:8px}
+.desc{color:#94a3b8;margin:8px 0}
+.files{color:#38bdf8;font-size:0.85em;margin:8px 0}
+.badge{display:inline-block;background:rgba(251,191,36,0.2);color:#facc15;padding:2px 10px;border-radius:12px;font-size:0.75em;margin:4px 4px 0 0}
+.donate{text-align:center;margin:30px 0;padding:30px;background:linear-gradient(135deg,#1e293b,#0f172a);border-radius:16px;border:2px solid #4ade80}
+.donate p{color:#4ade80;font-size:1.2em;margin-bottom:12px}
+.donate img{width:200px;border-radius:12px;margin:10px}
+.back{text-align:center;margin:20px 0}
+.back a{color:#38bdf8;text-decoration:none;font-size:1.1em}
+</style>
+</head>
+<body>
+<div class="container">
+
 <h1>🛒 Java面试装备商店</h1>
-<div style="background:#1e293b;border-radius:12px;padding:12px;margin:12px 0;text-align:center;color:#94a3b8;font-size:13px">
-📊 这些资料是我从上千次BOSS沟通、30+场面试中总结出来的。<br>每一题都来自真实面试场景——不是我编的，是面试官真这么问的。
-</div><p class="sub">扫码赞赏后截图发微信，秒发资料</p>
+<p class="subtitle">上千次沟通·30+面试实战验证 | 帮到你再赞赏</p>
 
-<div class="pkg best"><span class="best-tag">🔥 最受欢迎</span>
-<h3>🎯 大厂押题密卷</h3><div class="price">¥9.9<span class="original">¥29.9</span></div>
-<ul>
-<li>阿里/字节/拼多多/美团/快手/京东/百度/网易——110个文件，含算法+场景题+面试流程+投递跟进</li><li>每道题配追问防御</li><li>PDF下载+终身更新</li>
-</ul>
-<div class="buy-btn">扫码¥9.9 → 截图发微信 → 秒发密卷</div>
+<div class="card">
+<h2>🎯 押题密卷</h2>
+<div class="price">¥9.9 <s>¥49</s></div>
+<div class="desc">5大厂(阿里/字节/拼多多/美团/快手)各5道真题+答案+追问防御</div>
+<div class="files">📦 15个文件 · 现在下单</div>
+<div>
+<span class="badge">阿里</span><span class="badge">字节</span><span class="badge">拼多多</span>
+<span class="badge">美团</span><span class="badge">快手</span><span class="badge">面试英语</span>
+</div>
+<p style="color:#94a3b8;margin-top:12px;font-size:0.9em">扫码赞赏 ¥9.9 → 备注"押题密卷" → 加微信发截图 → 秒发资料包</p>
 </div>
 
-<div class="pkg">
-<h3>👑 面试通关全家桶</h3><div class="price">¥29.9<span class="original">¥129</span></div>
-<ul>
-<li>押题密卷——5家我面过的公司</li><li>210个文件——8件装备总价值¥129</li><li>面试话术——我用的原版</li><li>薪资谈判——帮我要到更高offer的话术</li><li>PDF资料包合集</li>
-</ul>
-<div class="buy-btn">扫码¥29.9 → 截图发微信 → 秒发全家桶</div>
+<div class="card featured">
+<h2>🔥 面试通关全家桶（最受欢迎）</h2>
+<div class="price">¥29.9 <s>¥149</s></div>
+<div class="desc">押题密卷全部内容 + 源码剖析 + 薪资谈判 + 面试话术 + 入职指南 + 远程面试攻略</div>
+<div class="files">📦 24个文件 · 25道真题+全部防御答案</div>
+<div>
+<span class="badge">押题全套</span><span class="badge">源码剖析</span><span class="badge">薪资谈判</span>
+<span class="badge">面试话术</span><span class="badge">入职指南</span><span class="badge">远程面试</span>
+<span class="badge">Offer抉择</span><span class="badge">压力面试</span>
+</div>
+<p style="color:#94a3b8;margin-top:12px;font-size:0.9em">扫码赞赏 ¥29.9 → 备注"全家桶" → 加微信发截图 → 秒发全套</p>
 </div>
 
-<div class="pkg">
-<h3>🎓 1v1模拟面试</h3><div class="price">¥49<span class="original">¥149</span></div>
-<ul>
-<li>30分钟模拟面试</li><li>20分钟精准押题</li><li>10分钟追问防御</li><li>面试后复盘分析</li>
-</ul>
-<div class="buy-btn">扫码¥49 → 截图发微信 → 预约时间</div>
+<div class="card">
+<h2>🎓 1v1模拟面试</h2>
+<div class="price">¥49 <s>¥199</s></div>
+<div class="desc">30分钟深度模拟面试 + 即时反馈 + 个性化改进方案 + 全部配套资料</div>
+<div class="files">📦 19个文件 · 含模拟脚本+评分表+心理学技巧</div>
+<div>
+<span class="badge">模拟脚本</span><span class="badge">评分标准</span><span class="badge">心理学技巧</span>
+<span class="badge">自我介绍模板</span><span class="badge">远程面试</span><span class="badge">压力应对</span>
+</div>
+<p style="color:#94a3b8;margin-top:12px;font-size:0.9em">扫码赞赏 ¥49 → 备注"模拟面试" → 加微信 → 约模拟面试时间</p>
 </div>
 
-<div class="contact">
-<p style="font-size:18px;margin-bottom:12px">📱 赞赏后截图发我微信</p>
-<img src="contact-qr.png" alt="联系方式"><p style="color:#94a3b8;font-size:12px;margin:4px 0">扫码加微信发截图</p>
-<img src="qrcode.png" alt="赞赏码" style="margin-top:8px"><p style="color:#94a3b8;font-size:12px;margin:4px 0">微信赞赏码</p>
-<p style="color:#64748b;font-size:11px;margin-top:8px">赞赏时请备注想要的装备名称</p>
+<div class="donate">
+<p>💰 赞赏支持</p>
+<img src="qrcode.png" alt="微信赞赏码">
+<p style="font-size:0.8em;color:#64748b;margin-top:8px">扫码赞赏后，备注购买的产品名称</p>
+<p style="font-size:0.8em;color:#64748b">然后扫码下方二维码加微信，发截图秒发资料</p>
+<img src="contact-qr.png" alt="联系方式">
+<p style="font-size:0.8em;color:#64748b;margin-top:4px">扫码加微信·发赞赏截图·秒收资料</p>
 </div>
-</body></html>
+
+<div class="back">
+<a href="./">&larr; 返回弹药库首页</a>
+</div>
+
+<p style="text-align:center;color:#64748b;font-size:0.8em;margin:30px 0">© Java面试研究社 · 上千次沟通实战总结</p>
+
+</div>
+</body>
+</html>
